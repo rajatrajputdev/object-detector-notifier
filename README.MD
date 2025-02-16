@@ -3,6 +3,11 @@
 An Arduino-based object detection and notification system, integrated with Python for storing data in Azure SQL.
 ## Demo
 ![https://github.com/rajatrajputdev/object-detector-notifier/blob/main/demonstration/demonst3.gif?raw=true](https://github.com/rajatrajputdev/object-detector-notifier/blob/main/demonstration/demonst3.gif?raw=true)
+## Applications
+- Can be used in vehicles as rear wall detector.
+- Can be used in water tanks / aquariums with some modification to detect water levels.
+- Can be used in door locks.
+
 ### Prequisites
 - Arduino UNO
 - C
