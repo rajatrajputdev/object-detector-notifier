@@ -1,12 +1,8 @@
 # Smart Object Detector & Notifier
 
 An Arduino-based object detection and notification system, integrated with Python for storing data in Azure SQL.
-## Demo
+### Demo
 ![https://github.com/rajatrajputdev/object-detector-notifier/blob/main/demonstration/demonst3.gif?raw=true](https://github.com/rajatrajputdev/object-detector-notifier/blob/main/demonstration/demonst3.gif?raw=true)
-## Applications
-- Can be used in vehicles as rear wall detector.
-- Can be used in water tanks / aquariums with some modification to detect water levels.
-- Can be used in door locks.
 
 ### Prequisites
 - Arduino UNO
@@ -18,6 +14,11 @@ An Arduino-based object detection and notification system, integrated with Pytho
 - Detects any disturbance within a 10-centimeter range.  
 - LED indicators show **DANGER** or **CLEAR** status.  
 - Data is continuously stored in an SQL database with dynamic distance ranges.
+
+### Applications
+- Can be used in vehicles as rear wall detector.
+- Can be used in water tanks / aquariums with some modification to detect water levels.
+- Can be used in door locks.
 
 ## Arduino Setup
 [object-notifier.ino](https://github.com/rajatrajputdev/object-detector-notifier/blob/main/arduino-code/object-notifier/object-notifier.ino)
